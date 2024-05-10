@@ -1,0 +1,21 @@
+(set (quote app)
+        (quote(lambda(x y)(cond((atom x)y)(t(cons(car x)(app(cdr x)y)))))))
+(set (quote perm)
+     (quote (lambda(x)
+         (cond
+           ((atom x)nil)
+           ((atom(cdr x))(cons x nil))
+           (t(mapapp
+              (quote(lambda(y)(insert nil (car x) (car y))))
+              (perm(cdr x))
+              ))))))
+(set (quote insert)
+     (quote
+       (lambda(x a y)
+         (cond((atom y)(cons (app x(cons a y))nil))
+              (t(cons(app x(cons a y))
+                     (insert (app x (cons (car y)nil)) a (cdr y))))))))
+(set (quote mapapp)
+     (quote (lambda(f l)(cond((atom l)nil)
+                             (t (app (f l) (mapapp f (cdr l)) ))))))
+(perm (quote(a b c d)) )
