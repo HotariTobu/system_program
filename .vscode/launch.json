@@ -5,7 +5,7 @@
             "name": "C/C++: clang アクティブ ファイルのビルドとデバッグ",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

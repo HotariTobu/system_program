@@ -1,3 +1,4 @@
 *.tab*
+*.out*
 
 .DS_store
