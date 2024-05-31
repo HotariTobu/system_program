@@ -1,0 +1,2 @@
+app([], X, X).
+app([A|X], Y, [A|Z]) :- app(X, Y, Z).

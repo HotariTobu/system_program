@@ -1,0 +1,6 @@
+fact(parent(john, mary)).
+fact(parent(luna, mary)).
+fact(parent(mary, bob)).
+
+rule(father(X, Y) :- parent(X, Y), male(X)).
+rule(mother(X, Y) :- parent(X, Y), female(X)).
