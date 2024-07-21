@@ -13,7 +13,8 @@
 			"extensions": [
 				"mattn.Lisp",
 				"streetsidesoftware.code-spell-checker",
-				"VisualStudioExptTeam.vscodeintellicode"
+				"VisualStudioExptTeam.vscodeintellicode",
+				"ms-vscode.makefile-tools"
 			]
 		}
 	}
