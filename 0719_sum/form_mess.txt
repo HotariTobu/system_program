@@ -1,0 +1,30 @@
+HTTP/1.0 200 Document follows
+Server: messerv
+COntent-Type: text/html; charset=utf-8
+
+<html> <head></head> <body>
+<form method="GET" action="http://localhost:58089">
+<pre>
+a=<input type="textarea" name="a" width="15" height="3">
+b=<input type="textarea" name="b" width="15" height="3">
+<select name="c">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+</select>
+<input type="submit" value="submit">
+</pre>
+</form>
+<hr>
+<form method="POST" action="http://localhost:58089">
+<pre>
+a=<input type="textarea" name="a" width="15" height="3">
+b=<input type="textarea" name="b" width="15" height="3">
+<select name="c">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+</select>
+<input type="submit" value="submit">
+</pre>
+</form> </body> </html>
