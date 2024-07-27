@@ -1,0 +1,80 @@
+HTTP/1.0 200 Document follows
+Server: messerv
+Content-Type: text/html; charset=utf8
+
+<head>
+<title> no proxy message </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+<!---
+th_color = "#fffeee";
+td_color = "#aaffff";
+table_border = 10;
+
+function MakeArray(n) {
+    this.length = n; for(var i=1;i<=n;i++) {this[i]="　";}
+        return this;
+}
+h = new MakeArray(7);
+g1 = new MakeArray(7);
+g2 = new MakeArray(7);
+g3 = new MakeArray(7);
+g4 = new MakeArray(7);
+g5 = new MakeArray(7);
+
+
+// Data
+h[1]="時限｜曜日"; h[2]="月"; h[3]="火"; h[4]="水"; h[5]="木";
+h[6]="金"; h[7]="土";
+g1[1]="第１時限 <br>(9:00〜10:40)";
+g2[1]="第２時限 <br>(10:50〜12:30)";
+g3[1]="第３時限 <br>(13:20〜15:00)";
+g4[1]="第４時限 <br>(15:10〜16:50)";
+g5[1]="第５時限 <br>(17:00〜18:40)";
+
+//*********************************************************************
+g2[2]="プログラミング上級演習<br>森口";
+g4[2]="プログラミング上級演習<br>森口";
+g2[3]="Cプログラミング初級演習<br>今堀";
+g3[3]="Cプログラミング初級演習<br>今堀";
+g2[6]="基盤系オブジェクト指向プログラミング演習<br>高松";
+g3[6]="基盤系オブジェクト指向プログラミング演習<br>高松";
+g3[4]="実践プログラミング<br>森口";
+
+//*********************************************************************
+// End Data
+
+function print_a_row(h,border,th_color,td_color) {
+    document.write("<tr><th bgcolor=",th_color," border=",
+                table_border," width=5% >",h[1],"</th>");
+    for(var i=2; i<=7; i++) {
+        document.write("<td align=center bgcolor=",td_color," width=18%>",
+                              h[i],"</td>"); 
+    }
+    document.write("</tr>");
+    document.write("<br>"); 
+}
+
+function show_table() {
+    document.write("<table border=",table_border,">");
+    print_a_row(h,table_border,td_color,th_color);
+    print_a_row(g1,table_border,th_color,td_color);
+    print_a_row(g2,table_border,th_color,td_color);
+    print_a_row(g3,table_border,th_color,td_color);
+    print_a_row(g4,table_border,th_color,td_color);
+    print_a_row(g5,table_border,th_color,td_color);
+    document.write("</table>");
+}
+// -->
+</script>
+</head>
+<body bgcolor=#eeeeff>
+演習室時間割 （20xx年度前期）<br>
+ MESSAGE  <br>
+下記の時間は授業で使用します.
+<script>
+<!----
+show_table();
+// -->
+</script>
+</body>

@@ -1,0 +1,18 @@
+HTTP/1.0 200 Document follows
+Server: messerv
+Content-Type: text/html; charset=utf8
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Content
+</body>
+
+</html>
